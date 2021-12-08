@@ -18,7 +18,7 @@ public class LocationPrice {
     }
 
     public String toString() {
-        return location + " " + price;
+        return "{" + location + " : " + price + "}";
     }
 }
 
